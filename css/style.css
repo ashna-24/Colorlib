@@ -16,6 +16,8 @@
 }
 
 .header{
+    position: fixed;
+    z-index: 1;
     background: #333;
     border-bottom: 1px solid #444;
     max-height: 60px;
@@ -72,9 +74,13 @@
     height: 600px;
 }
 
+.mainbody{
+    padding-top: 58px;
+}
+
 .main{
     padding: 25px 0px;
-    top: 0;
+    top: 59px;
     border-bottom: 1px solid #8d8d8d;
 }
 
@@ -100,10 +106,19 @@
     font-size: 18px;
 }
 
+.part2{
+    padding: 100px 0px;
+}
+
+.imageset{
+    width: 255px;
+    margin-bottom:30px;
+}
+
 .mainpart2{
     top: 115px;
     width: 1340px;
-    margin-top: 90px;
+    margin-top: 145px;
 }
 
 .welcome{
@@ -192,6 +207,7 @@
 
 .textli{
     margin-bottom: 15px;
+    list-style-type: none;
     line-height: 1.5;
     color: gray;
     font-size: 17px;
@@ -332,10 +348,10 @@
 }
 
 .pricedata{
-    width: 340px;
-    height: 565px;
+    width: 348px;
+    height: 570px;
     background-color: white;
-    padding: 30px 48px;
+    padding: 30px 40px;
 }
 
 .price{
@@ -365,6 +381,7 @@
 .removed{
     font-weight: 400;
     margin-bottom: 15px;
+    list-style-type: none;
     font-size: 18px;
     text-decoration: line-through;
     color: #dee2e6; 
@@ -393,6 +410,11 @@
     line-height: 1.5;
     font-weight: 400;
     color: #495057;
+}
+
+.formdata:focus{
+    outline: none;
+    border-color: #007bff;
 }
 
 .contactform{
@@ -454,6 +476,10 @@
     font-size: 17px;
     width: 170px;
 }
+
+.textinput:focus {
+    outline: none;
+  }
 
 .submit{
     font-size: 17px;
