@@ -15,6 +15,22 @@
     position:absolute;
 }
 
+.fsize16{
+    font-size: 16px;
+}
+
+.fsize17{
+    font-size: 17px;
+}
+
+.fweight400{
+    font-weight: 400;
+}
+
+.colorff{
+    color: #007bff;
+}
+
 .header{
     position: fixed;
     z-index: 1;
@@ -26,8 +42,7 @@
 .headerlogo{
     border-right: 1px solid #444;
     width: 150px;
-    padding-bottom: 15px;
-    padding-left: 10px;
+    padding-bottom: 0px 0px 15px 10px;
 }
 
 .logo{
@@ -42,8 +57,6 @@
 
 .nitro{
     color: #9B9B9B;
-    font-size: 16px;
-    font-weight: 400;
     line-height: 50px;
     padding: 5px 40px 0px 40px;
 }
@@ -56,7 +69,6 @@
     font-size: 24px;
     color: #9B9B9B;
     border-left: 1px solid #444;
-    font-weight: 400;
     padding: 12px 16px;
 }
 
@@ -65,7 +77,6 @@
     font-size: 24px;
     color: #ffffff;
     border-left: 1px solid #444;
-    font-weight: 400;
     padding: 12px 18px;
 }
 
@@ -89,25 +100,55 @@
 }
 
 .nitroh1{
-    font-weight: 400;
     font-size: 33px;
     line-height: 1.2;
     color: #fff;
 }
 
-.nitrospan{
-    color: #007bff; 
-}
-
 .home{
     color: #fff;
     padding: 10px 20px 0px 20px;
-    font-weight: 400;
     font-size: 18px;
+}
+
+.all{
+    padding: 9px 20px;
+    border: none;
+    font-size: 13px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+
+.portfolioselect{
+    margin-top: 40px;
+}
+
+.selected{
+    color: #ffffff;
+    background-color: #007bff;
+}
+
+.all:hover{
+    color: #ffffff;
+    background-color: #007bff;
 }
 
 .part2{
     padding: 100px 0px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.align{
+    padding-top: 40px;
+    justify-content: center;
+}
+
+.services{
+    background-color: #f8f9fa;
+}
+
+.part4{
+    padding: 85px 0px;
 }
 
 .imageset{
@@ -138,9 +179,8 @@
 
 .button{
     padding: 10px 32px;
-    font-size: 16px;
     border: none;
-    color: white;
+    color: #ffffff;
     background-color: #007bff;
     border-radius: 20px;
 }
@@ -153,8 +193,11 @@
     margin-bottom: 70px;
 }
 
+.aboutportfolio{
+    margin-bottom: 55px;
+}
+
 .about{
-    color: #007bff;
     font-size: 40px;
     font-weight: 700; 
 }
@@ -173,12 +216,15 @@
 
 .text{
     font-size: 30px;
-    font-weight: 400; 
 }
 
 .ques{
     font-size: 25px;
-    font-weight: 400; 
+}
+
+.cont{
+    font-size: 25px;
+    margin-bottom: 40px;  
 }
 
 .rowset{
@@ -188,7 +234,6 @@
 .ans{
     line-height: 1.7;
     color: gray;
-    font-weight: 400;
     font-size: 19px;
     padding: 20px 30px 0px 0px;
 }
@@ -199,8 +244,6 @@
 
 .business{
     color: gray;
-    font-weight: 400;
-    font-size: 17px;
     padding: 25px 0px;
     width: 425px;
 }
@@ -210,8 +253,6 @@
     list-style-type: none;
     line-height: 1.5;
     color: gray;
-    font-size: 17px;
-    font-weight: 400;
 }
 
 .minimal{
@@ -230,9 +271,7 @@
 .textsettwo{
     line-height: 1.7;
     color: gray;
-    font-weight: 400;
     width: 445px;
-    font-size: 17px; 
 }
 
 .details{
@@ -243,7 +282,6 @@
     padding: 10px 30px;
     border: none;
     border-radius: 35px;
-    font-size: 17px;
     color: white;
     margin-top: 20px;
     background-color: #007bff;
@@ -275,15 +313,24 @@
 }
 
 .managerpart{
-    font-size: 13px;   
+    font-size: 15px;   
     color: gray;
     padding: 10px 0px 0px 10px;
+}
+
+.colorlibspan{
+    font-weight: 400px;
+    color: #b3b3b3;
+}
+
+.colorlibspan:hover{
+    color: #ffffff;
 }
 
 .textset{
     font-size: 22px;
     color: gray;
-    margin: 10px 280px;
+    margin: 10px 315px;
     font-weight: 300;
 }
 
@@ -311,7 +358,6 @@
 .italic{
     line-height: 1.7;
     color: gray;
-    font-weight: 400;
     margin: 0px 250px;
     font-size: 28px;
 }
@@ -331,12 +377,20 @@
 
 .buttonbuy{
     padding: 10px 25px;
-    font-size: 16px;
     color: white;
     background-color: gray;
     border: none;
     border-radius: 30px;
-    margin-left: 50px;
+    margin-left: 75px;
+}
+
+.buttonselected{
+    padding: 10px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-left: 75px;
 }
 
 .basicprice{
@@ -357,12 +411,10 @@
 .price{
     text-align: center;
     color: #cccccc;
-    font-weight: 400;
     font-size: 19px;
 }
 
 .blue{
-    color: #007bff;
     font-size: 42px; 
 }
 
@@ -370,8 +422,10 @@
     list-style-type: none;
     color: gray;
     margin-bottom: 15px;
-    font-weight: 400;
-    font-size: 17px;
+}
+
+.settwo:hover{
+    color: #ffffff;
 }
 
 .buynow{
@@ -379,7 +433,6 @@
 }
 
 .removed{
-    font-weight: 400;
     margin-bottom: 15px;
     list-style-type: none;
     font-size: 18px;
@@ -392,23 +445,19 @@
 }
 
 .location{
-    margin: 10px 50px;
-    font-size: 16px;
+    margin: 10px 0px;
 }
 
 .phone{
-    margin: 10px 50px;
-    font-size: 16px;
-    color: #007bff;
+    margin: 10px 0px;
 }
 
 .formdata{
-    padding: 15px;
+    padding: 13px;
     border-radius: 30px;
     border: 1px solid #ced4da;
     width: 100%;
     line-height: 1.5;
-    font-weight: 400;
     color: #495057;
 }
 
@@ -419,11 +468,7 @@
 
 .contactform{
     background-color: white;
-    padding: 40px;
-}
-
-.textareadata{
-    font-size: 17px;
+    padding: 55px 40px;
 }
 
 .formrow{
@@ -431,8 +476,6 @@
 }
 
 .labeltext{
-    font-size: 17px;
-    font-weight: 400;
     padding-bottom: 5px;
 }
 
@@ -449,18 +492,19 @@
     margin-left: 20px;
 }
 
+#icon:hover{
+    color: #ffffff;
+}
+
 .footertext{
-    font-size: 17px;
-    color: white;
+    color: #ffffff;
     margin-bottom: 20px;
-    font-weight: 300;
 }
 
 .footerp{
     width: 299px;
     color: #8d8d8d;
     line-height: 1.7;
-    font-size: 16px; 
     margin-right: 126px;
 }
 
@@ -470,10 +514,9 @@
 }
 
 .textinput{
-    padding: 10px;
+    padding: 8px 10px;
     background: transparent;
     border: none;
-    font-size: 17px;
     width: 170px;
 }
 
@@ -482,8 +525,7 @@
   }
 
 .submit{
-    font-size: 17px;
-    padding: 0px 22px;
+    padding: 0px 30px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border: none; 
@@ -493,22 +535,25 @@
     padding-bottom: 100px;
 }
 
+.blogrow{
+    padding-top: 125px;
+}
+
 .img1{
     width: 350px;
     height: 380px;
+    margin-bottom: 20px;
 }
 
 .img2{
     width: 350px;
     height: 485px;
-}
-
-.setthree{
-    margin-left: 35px;
+    margin-bottom: 20px;
 }
 
 .img3{
     width: 350px;
+    margin-bottom: 20px;
     height: 525px;
 }
 
@@ -516,14 +561,8 @@
     width: 350px;
 }
 
-.settwo{
-    margin-left: 65px;
-}
-
 .new{
-    color: #007bff;
     font-size: 14px;
-    font-weight: 400;
 }
 
 .aboutimg{
@@ -533,27 +572,40 @@
 
 .webtext{
     margin: 40px 0px 10px 0px;
-    font-size: 20px;
+    font-size: 21px;
     color: #000;
-    font-weight: 500;
+}
+
+.blogtext{
+    font-size: 21px;
+    color: #000;
+}
+
+.startupimg{
+    width: 50px;
+}
+
+.rowmarginser{
+    padding: 20px 50px;
 }
 
 .webp{
     line-height: 1.7;
     color: gray;
-    font-weight: 400;
-    font-size: 16px;
 }
 
-.webblue{
-    color: #007bff;
-    font-size: 17px;
-    font-weight: 400;
+.webpser{
+    line-height: 1.7;
+    color: gray;
+}
+
+.bottomfooter {
+    padding: 20px 0px 60px 0px;
 }
 
 .bottom{
     border-bottom: 1px solid #8d8d8d;
-    padding-bottom: 20px;
+    padding: 50px 0px 100px 0px;
 }
 
 .footerbottomp{
@@ -561,21 +613,17 @@
     margin-top: 30px;
     color: #8d8d8d;
     line-height: 1.7;
-    font-size: 16px;
     margin-right: 126px;
 }
 
 .blogname{
     line-height: 1.7;
-    font-weight: 400;
     color: #b3b3b3;
     font-size: 14px;
 }
 
 .blog{
     color: gray;
-    font-weight: 400;
-    font-size: 17px;
 }
 
 .setdata{
