@@ -101,6 +101,7 @@
 .main{
     padding: 25px 0px;
     top: 59px;
+    width: 1349px;
     border-bottom: 1px solid #8d8d8d;
 }
 
@@ -144,8 +145,12 @@
     background-color: #007bff;
 }
 
+.colorlibmain{
+    width: 1349px;
+}
+
 .part2{
-    padding: 100px 0px;
+    padding: 100px 110px;
     border-bottom: 1px solid #dee2e6;
 }
 
@@ -159,7 +164,7 @@
 }
 
 .part4{
-    padding: 85px 0px;
+    padding: 85px 110px;
 }
 
 .imageset{
@@ -200,7 +205,7 @@
 }
 
 .part1 {
-    padding: 90px 0px;
+    padding: 90px 110px;
 }
 
 .aboutpart{
@@ -297,6 +302,10 @@
     background-color: #007bff;
 }
 
+.learnmore:hover{
+    background-color: #000;
+}
+
 .setone{
     margin: 0px 0px 30px 30px;
 }
@@ -368,8 +377,8 @@
 .italic{
     line-height: 1.7;
     color: gray;
-    margin: 0px 250px;
-    font-size: 28px;
+    margin: 0px 208px;
+    font-size: 24px;
 }
 
 .justify{
@@ -394,6 +403,15 @@
     margin-left: 75px;
 }
 
+.buttonbuy:hover{
+    background-color: #5a6268;
+}
+
+::selection {
+    background-color: #000;
+    color: #fff;
+}
+
 .buttonselected{
     padding: 10px 25px;
     background-color: #007bff;
@@ -401,6 +419,10 @@
     border: none;
     border-radius: 30px;
     margin-left: 75px;
+}
+
+.buttonselected:hover{
+    background-color: #000;
 }
 
 .pricedata{
@@ -663,4 +685,8 @@
 
 .setdata{
     padding-top: 15px;
+}
+
+.more:hover{
+    color: #0056b3;
 }
