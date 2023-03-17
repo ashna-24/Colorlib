@@ -3,6 +3,29 @@
     padding: 0;
 }
 
+.reveal{
+    opacity: 0;
+}
+  
+.reveal.active{
+    opacity: 1;
+}
+
+.active.fade-bottom{
+    animation: fade-bottom 0.8s ease-in;
+}
+
+@keyframes fade-bottom{
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+
 .relative{
     position: relative;
 }
@@ -662,7 +685,7 @@
 }
 
 .bottom{
-    border-bottom: 1px solid #8d8d8d;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     padding: 50px 0px 100px 0px;
 }
 
@@ -689,4 +712,8 @@
 
 .more:hover{
     color: #0056b3;
+}
+
+#selecticon:hover{
+    color: #ffffff !important;
 }
